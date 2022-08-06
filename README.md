@@ -1,6 +1,5 @@
 # registration-form
 Apenas um formulário de cadastro para as pessoas concorrerem as vagas :)
-![image](https://user-images.githubusercontent.com/105006001/182916316-6377c70e-71a7-48c5-968f-aaefba7170be.png)
 
 Versão 0.5 Beta
 
