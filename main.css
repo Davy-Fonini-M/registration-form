@@ -39,3 +39,103 @@ button{
    height: 20px;
 }
 
+/* PT 2 BETA*/
+
+*{
+   padding: 0;
+   margin: 3px;
+   outline: 0;
+   color: black;
+}
+
+body{
+   padding: 15px;
+   padding-left: 40%;
+   padding-right: 40%;
+   max-width: 100vh;
+   min-height: 100vw;
+   background: url(/212b34104893379.5f6cc87656bf0.gif);
+}
+
+h1{
+   display: flex;
+   background-color: rgb(240, 248, 255);
+   border-radius: 15px;
+   justify-content: center;
+   text-align: center;
+   border-bottom: 5px solid black;
+   width: 100%;
+   padding: 0 0 0 32%;
+   border-top: 5px solid black;
+   text-indent: 5px;
+   white-space: nowrap;
+   height: auto;
+}
+
+h2{
+   text-align: center;
+}
+
+.container{
+   background-color: rgb(240, 248, 255);
+   border-radius: 15px;
+   height: auto;
+   margin-top: 10px;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   border-top: 5px solid black;
+   border-bottom: 5px solid black;
+}
+
+button{
+   border-radius: 5px;
+   height: 20px;
+}
+
+input{
+   border-radius: 10px;
+   width: auto;
+   font-weight: lighter;
+}
+
+.input2{
+   width: 25%;
+   display: flex;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+   body{
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      flex-direction: column;
+      outline: 0;
+      width: auto;
+      height: auto;
+      flex-wrap: nowrap;
+   }
+   input{
+      width: auto;
+   }
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+   body{
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      flex-direction: column;
+      outline: 0;
+      height: 500px;
+   }
+   input{
+      width: auto;
+   }
+
+}
