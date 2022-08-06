@@ -8,17 +8,18 @@
     <title>Formulário de Cadastro</title>
 </head>
 <body>
-    <div>
-    <h1>Formulário de Cadastro </h1>
+ 
+    <h1>Formulário de Cadastro</h1>
     <div class="container">
-          </div>
     <form action="">
-        <div class="container">
+            <div class="input1">
         <label class="Input-box">Nome:</label>
             <input id="name" type="text" maxlength="12" minlength="4" name="name" placeholder="Digite seu nome" required>
+        </div>
+        <div class="input2">
             <label class="Name">Sobrenome:</label>
             <input id="Name" type="text"  maxlength="17" minlength="4" name="lastname" placeholder="Digite seu sobrenome" required>
-  
+  </div>   
         <div class="Input-box" id="Email">
             <label>E-mail:</label>
             <input id="Email" type="email" name="email" maxlength="25" minlength="10" placeholder="Digite seu email" required>
@@ -36,10 +37,10 @@
             <label>Data de Nascimento</label>
             <input type="date">
             <br>
-            <label>Foto:</label>
+            <label>Curriculo:</label>
             <input type="file">
         </div>
-        <div class="Input-box" id="Nationality">
+        <div class="Input-box" id="Nationality" required>
 
             <label>Nacionalidade</label>
             <br>
@@ -68,11 +69,6 @@
             </div>
           
         </div>
-        <div class="Input-box" id="About">
-            <label>Escreva um pouco sobre você:</label>
-            <div class="Text">
-                <textarea rows="10" cols="30" maxlength="300" minlength="100" required></textarea>  
-    </div>
     <a href="#" class="Send">
         <button>Enviar</button>
       
