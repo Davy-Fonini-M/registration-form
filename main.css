@@ -6,49 +6,6 @@
 }
 
 body{
-   background-image: linear-gradient(to left, rgb(0, 255, 234) , rgb(255, 255, 255));
-   padding: 15px;
-   padding-left: 32%;
-   padding-right: 32%;
-}
-img{
-   display: flex;
-   width: 70%;
-}
-
-h1{
-   display: flex;
-   background-color: rgb(240, 248, 255);
-   border-radius: 15px;
-   justify-content: center;
-   border-bottom: 5px solid black;
-}
-
-
-.container{
-   background-color: rgb(240, 248, 255);
-   border-radius: 15px;
-   height: auto;
-   margin-top: 10px;
-   display: flex;
-   flex-direction: column;
-}
-
-button{
-   border-radius: 5px;
-   height: 20px;
-}
-
-/* PT 2 BETA*/
-
-*{
-   padding: 0;
-   margin: 3px;
-   outline: 0;
-   color: black;
-}
-
-body{
    padding: 15px;
    padding-left: 40%;
    padding-right: 40%;
@@ -57,23 +14,18 @@ body{
    background: url(/212b34104893379.5f6cc87656bf0.gif);
 }
 
-h1{
+h2{
    display: flex;
    background-color: rgb(240, 248, 255);
    border-radius: 15px;
-   justify-content: center;
-   text-align: center;
+   justify-content: left;
+   text-align: left;
    border-bottom: 5px solid black;
-   width: 100%;
-   padding: 0 0 0 32%;
+   width: 235px;
+   padding: 0 0 0 22%;
    border-top: 5px solid black;
-   text-indent: 5px;
    white-space: nowrap;
    height: auto;
-}
-
-h2{
-   text-align: center;
 }
 
 .container{
@@ -139,3 +91,4 @@ input{
    }
 
 }
+
